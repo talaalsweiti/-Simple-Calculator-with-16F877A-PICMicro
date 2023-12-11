@@ -1,0 +1,182 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Wed Jul 26 20:07:02 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x0007c4
+   .config_2007_PROJECT.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x0003e5      
+                            0x002007    0x002007      
+            996 out of 8454 program addresses used, program memory utilization is 11%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ADD   0x000377    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+       ADD_NUM2_HIGH_BYTE   0x000387    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   ADD_OP   0x000393    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   BACK_B   0x00004d    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   BACK_T   0x00007f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             BLINK_CURSOR   0x0000e5    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+               BUTTON_INT   0x000033    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         CALCULATE_RESULT   0x00038c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 CALC_REM   0x000307    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             CHECK_BUTTON   0x00002c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             CHECK_CLICKS   0x000242    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         CHECK_CLICKS_END   0x000251    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                CHECK_MAX   0x00016b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              CHECK_TIMER   0x00002e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                COMP_HIGH   0x0002f9    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D1_DONE   0x000347    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D2_DONE   0x000350    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D3_DONE   0x000359    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D4_DONE   0x000362    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D5_DONE   0x00036c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         DEACTIVATE_TIMER   0x000209    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DEC_Q_HIGH   0x000306    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  DISPLAY   0x00036c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            DISPLAY_DIGIT   0x00017b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+   DISPLAY_DIGIT_WITH_INC   0x000187    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           DISPLAY_NUMBER   0x000310    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DISPLAY_OP   0x0001a2    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           DISPLAY_RESULT   0x0001bd    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+          DISPLAY_RES_NUM   0x0001ee    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      DIV   0x0002df    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 DIV_LOOP   0x0002ee    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 DIV_NUMS   0x00039b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                     DONE   0x000300    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DONE_INC_Q   0x0002f2    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              FIRST_DIGIT   0x000286    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   GET_OP   0x00019f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                INC_DIGIT   0x00015c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   INC_OP   0x00018b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             INIT_MAX_ARR   0x000148    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              INIT_OP_ARR   0x0001af    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            INIT_TENS_ARR   0x0002bc    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  INT_END   0x000090    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      ISR   0x00002a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           LED_TURN_OFF_B   0x000109    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           LED_TURN_OFF_T   0x000101    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            LED_TURN_ON_B   0x000105    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            LED_TURN_ON_T   0x0000fd    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   MOD_OP   0x0003c4    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               NEXT_DIGIT   0x000279    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 NOT_NUM1   0x000077    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            OP_AFTER_KEEP   0x000253    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            PRINT_DIV_ERR   0x0003ca    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+    PRINT_ENTER_OPERATION   0x00010d    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+    PROCESS_CURRENT_DIGIT   0x00028f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              PROCESS_DIV   0x0003a3    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         REACTIVATE_TIMER   0x000249    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              RESET_INDEX   0x00019b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               SKIP_INT_T   0x00008a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TENS_LOOP_START1   0x00029e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TENS_LOOP_START2   0x0002ad    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+          THREE_SEC_DELAY   0x000088    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           TIMER_HANDLING   0x000059    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                TIMER_INT   0x000051    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TIMER_KEEP_STAGE   0x0001fb    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                     inid   0x0000be    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                     init   0x000005    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                     loop   0x0000fc    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                    loop1   0x000095    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    loopX   0x00009a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    onems   0x000093    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                   pulseE   0x00009e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                     send   0x0000ab    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    start   0x0000e9    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      xms   0x000099    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     init   0x000005    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      ISR   0x00002a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             CHECK_BUTTON   0x00002c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              CHECK_TIMER   0x00002e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               BUTTON_INT   0x000033    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   BACK_B   0x00004d    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                TIMER_INT   0x000051    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           TIMER_HANDLING   0x000059    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 NOT_NUM1   0x000077    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   BACK_T   0x00007f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+          THREE_SEC_DELAY   0x000088    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               SKIP_INT_T   0x00008a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  INT_END   0x000090    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                    onems   0x000093    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    loop1   0x000095    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                      xms   0x000099    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    loopX   0x00009a    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                   pulseE   0x00009e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                     send   0x0000ab    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                     inid   0x0000be    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+             BLINK_CURSOR   0x0000e5    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\LCDIS.INC
+                    start   0x0000e9    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                     loop   0x0000fc    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            LED_TURN_ON_T   0x0000fd    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           LED_TURN_OFF_T   0x000101    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            LED_TURN_ON_B   0x000105    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           LED_TURN_OFF_B   0x000109    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+    PRINT_ENTER_OPERATION   0x00010d    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             INIT_MAX_ARR   0x000148    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                INC_DIGIT   0x00015c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                CHECK_MAX   0x00016b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            DISPLAY_DIGIT   0x00017b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+   DISPLAY_DIGIT_WITH_INC   0x000187    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   INC_OP   0x00018b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              RESET_INDEX   0x00019b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   GET_OP   0x00019f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DISPLAY_OP   0x0001a2    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              INIT_OP_ARR   0x0001af    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           DISPLAY_RESULT   0x0001bd    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+          DISPLAY_RES_NUM   0x0001ee    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TIMER_KEEP_STAGE   0x0001fb    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         DEACTIVATE_TIMER   0x000209    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+             CHECK_CLICKS   0x000242    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         REACTIVATE_TIMER   0x000249    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         CHECK_CLICKS_END   0x000251    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            OP_AFTER_KEEP   0x000253    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               NEXT_DIGIT   0x000279    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              FIRST_DIGIT   0x000286    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+    PROCESS_CURRENT_DIGIT   0x00028f    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TENS_LOOP_START1   0x00029e    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         TENS_LOOP_START2   0x0002ad    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            INIT_TENS_ARR   0x0002bc    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      DIV   0x0002df    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 DIV_LOOP   0x0002ee    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DONE_INC_Q   0x0002f2    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                COMP_HIGH   0x0002f9    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                     DONE   0x000300    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+               DEC_Q_HIGH   0x000306    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 CALC_REM   0x000307    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+           DISPLAY_NUMBER   0x000310    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D1_DONE   0x000347    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D2_DONE   0x000350    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D3_DONE   0x000359    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D4_DONE   0x000362    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  DISPLAY   0x00036c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                  D5_DONE   0x00036c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                      ADD   0x000377    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+       ADD_NUM2_HIGH_BYTE   0x000387    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+         CALCULATE_RESULT   0x00038c    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   ADD_OP   0x000393    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                 DIV_NUMS   0x00039b    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+              PROCESS_DIV   0x0003a3    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+                   MOD_OP   0x0003c4    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+            PRINT_DIV_ERR   0x0003ca    program     static C:\users\basilmari\Desktop\ENCS4330\PICMicro-programming-under-MPLAB\MPLAB\Project.asm
+
+
